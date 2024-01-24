@@ -85,3 +85,45 @@ letter-spacing: -0.1px;
             line-height: normal;
             letter-spacing: 0.12px; 
         }
+
+
+
+
+.SideMenu__Ul{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 5px;
+}
+.SideMenu__Ul__Li{
+}
+.SideMenu__Ul__Li__Link{
+    display: flex;
+    width: 250px; 
+    justify-content: space-between;
+    border-radius: 8px; 
+    background-color: #757575;
+    align-items: center;
+    height: 46px; 
+
+}
+.SideMenu__Ul__Li__Link__Text{
+    display: flex;
+}
+.SideMenu__Ul__Li__Link__Text__Name{
+color: #9197B3;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.14px; 
+}
+.SideMenu__Ul__Li__Link__Chevron_right{
+    width: 16px;
+    height: 16px; 
+}
+.SideMenu__Ul__Li__Link__Svg{
+    width: 24px;
+height: 24px; 
+}
