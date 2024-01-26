@@ -10,7 +10,7 @@ const color="white"
 
 export const SideMenu = () => {
     return (
-      <div className="SideMenu">
+      <section className="SideMenu">
         <Logo/>
       <ul className="SideMenu__Ul" >
         <SideMenuLink  Name="Dashboard" link="/12" icon={Dashboard} /> 
@@ -21,7 +21,7 @@ export const SideMenu = () => {
         <SideMenuLink Name="Help" link="/23"  icon={Help}/>  
       </ul>
       <Profile/>
-      </div>
+      </section>
     );
   };
   

@@ -3,7 +3,7 @@ import image from "img/ManImage.png"
 
 export const Profile = () => {
     return (
-      <div className="SideMenu__Profile">
+      <section className="SideMenu__Profile">
         <img
         className="SideMenu__Profile__IMG"
         src={image}
@@ -14,7 +14,7 @@ export const Profile = () => {
         <h1 className="SideMenu__Profile__Header">Evano</h1>
         <span className="SideMenu__Profile__Span">Project Manager</span>
         </div>
-      </div>
+      </section>
     );
   };
   

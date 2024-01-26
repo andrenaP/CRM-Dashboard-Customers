@@ -2,4 +2,5 @@
     display: flex;
     gap: 71px;
     background: #FAFBFF; 
+    align-items: flex-start;
 }

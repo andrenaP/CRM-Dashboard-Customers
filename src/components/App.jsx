@@ -4,9 +4,9 @@ import './App.styles.css';
 
 export const App = () => {
   return (
-    <div className="App">
+    <section className="App">
       <SideMenu />
       <Main/>
-    </div>
+    </section>
   );
 };
