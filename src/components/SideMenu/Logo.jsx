@@ -4,7 +4,7 @@ import './SideMenu.styles.css';
 
 export const Logo = () => {
     return (
-      <div className="SideMenu__Logo">
+      <a className="SideMenu__Logo" href="/">
         {/* <img
         className="SideMenu__Logo__Svg"
         src={image}
@@ -16,7 +16,7 @@ export const Logo = () => {
         <h1 className="SideMenu__Logo__Header">Dashboard</h1>
         <span className="SideMenu__Logo__Span">v.01</span>
         </div>
-      </div>
+      </a>
     );
   };
   
