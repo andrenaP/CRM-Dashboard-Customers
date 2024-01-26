@@ -113,6 +113,7 @@ letter-spacing: -0.1px;
 }
 .SideMenu__Ul__Li__Link__Text{
     display: flex;
+    gap: 14px;
 }
 .SideMenu__Ul__Li__Link__Text__Name{
 color: #9197B3;
