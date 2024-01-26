@@ -1,3 +1,4 @@
+
 .SideMenu{
 max-width: 306px; 
 min-height: 100vh;
@@ -106,6 +107,8 @@ letter-spacing: -0.1px;
     background: #FFF; 
         align-items: center;
     height: 46px; 
+    padding-left: 11px;
+    padding-right: 8px;
 
 }
 .SideMenu__Ul__Li__Link__Text{
@@ -131,3 +134,32 @@ height: 24px;
 .active{
     background-color: #5932EA; ;
 }
+
+
+.SideMenu__Firstsection{
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+}
+
+
+
+/* 1658 */
+
+
+
+@media (max-width: 1794px) {
+    .SideMenu {
+        position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+    }
+  }
+  

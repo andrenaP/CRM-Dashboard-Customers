@@ -6,7 +6,7 @@ export const TableElement = ({id,Name,Company,Phone,Email,Country,Status}) => {
     <td>{Phone}</td>
     <td>{Email}</td>
     <td>{Country}</td>
-    {Status ? <td>active</td> : <td>Inactive</td>}
+    {Status ? <td> <div className="Main__Table_active"> Active</div></td> : <td> <div  className="Main__Table_inactive">Inactive</div> </td>}
     {/* <td>{Status}</td> */}
     </tr>
     );
