@@ -1,5 +1,5 @@
 import './SideMenu.styles.css';
-import {Chervon_right} from "img/icons"
+import {ChervonRight} from "img/icons"
 import React from 'react'
 import {useState} from 'react';
 
@@ -31,7 +31,7 @@ export const SideMenuLink = (props) => {
               {props.Name}
             </span>
           </div>
-          <Chervon_right className="SideMenu__Ul__Li__Link__Chervon_right" color={color} />
+          <ChervonRight className="SideMenu__Ul__Li__Link__ChervonRight" color={color} />
         </a>
       </li>
     );
