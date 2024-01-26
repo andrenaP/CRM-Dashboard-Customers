@@ -1,4 +1,20 @@
-.App{
-    display: flex;
-    gap: 71px;
+.Main{
+    background: #FAFBFF; 
+    width: 100%;
+}
+.Main__Header{
+    color: #000;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+
+padding-top: 41px;
+}
+.Main__Table{
+    width: 968px;
+height: 812px; 
+margin-top: 51px;
+background-color: aqua;
 }
