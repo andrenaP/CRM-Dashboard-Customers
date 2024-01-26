@@ -7,7 +7,7 @@ export const Profile = () => {
         <img
         className="SideMenu__Profile__IMG"
         src={ManImage}
-        alt="Logo image"
+        alt="Logo"
         height="37px"
         width="37px" />
         <div className="SideMenu__Profile__Text">
