@@ -1,12 +1,12 @@
 import './SideMenu.styles.css';
-import image from "img/ManImage.png"
+import ManImage from "img/ManImage.png"
 
 export const Profile = () => {
     return (
       <section className="SideMenu__Profile">
         <img
         className="SideMenu__Profile__IMG"
-        src={image}
+        src={ManImage}
         alt="Logo image"
         height="37px"
         width="37px" />
